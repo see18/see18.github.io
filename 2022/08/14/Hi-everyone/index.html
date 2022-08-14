@@ -371,7 +371,7 @@
     Fluid.utils.loadComments('#comments', function() {
       Fluid.utils.createScript('https://lib.baomitu.com/twikoo/1.5.11/twikoo.all.min.js', function() {
         var options = Object.assign(
-          {"envId":"envld","region":"ap-shanghai","path":"window.location.pathname"},
+          {"envId":"envld","region":"ap-shanghai","path":"window.location.pathname","enable":true,"visitor":true},
           {
             el: '#twikoo',
             path: 'window.location.pathname',
